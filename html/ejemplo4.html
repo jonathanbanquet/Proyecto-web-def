@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>Gestión empleados</title>
+<body>
+    <h1>Gestión empleados</h1>
+    <form action="">
+            <fieldset>
+        <label for="">Tipo de identificación:</label>
+        <select id="" autofocus>
+            <option value="">Cedula de ciudadanía</option>
+            <option value="">Cedula de extranjería</option>
+            <option value="">Pasaporte</option>
+       </select>
+        </select><br><br>
+                 Numero de identificación
+            <input type="number" required min="1" placeholder="Digite su numero">
+            <br><br>
+                 Nombres:
+            <input type="text" required>
+            <br><br>
+                 Apellidos:
+            <input type="text" required>
+            <br>
+            <br>
+                </fieldset>
+        Sexo:
+        <input type="radio" checked name="Sexo">Masculino <br>
+        <input type="radio" name="Sexo">Femenino
+        <br><br>
+        Deportes: 
+        <input type="checkbox" checked name="Deportes">Basket <br>
+        <input type="checkbox" name="Deportes">Beisbol <br>
+        <input type="checkbox" name="Deportes">Futbol <br>
+        <input type="checkbox"name= "Deportes">Karate <br><br>
+        Observaciones:
+         <br>
+        <textarea  cols="40" rows="10"></textarea>
+        <br><br>
+        foto
+        <img src="" alt="Foto Seleccionada"><br>
+        <input type="file" name="Seleccionar..">
+        <br><br>
+        Correo Electronico:
+        <input type="email">
+        <br><br>
+        Password:
+        <input type="password">
+        <br><br>
+        Fecha Nacimiento:
+        <input type="date">
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Limpiar">
+
+    </form>
+</body>
+</html>

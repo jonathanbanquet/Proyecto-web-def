@@ -1,0 +1,130 @@
+.grid-Contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: stretch;
+    grid-template-rows: auto auto auto auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.elemento {
+    width: 300px;
+    height: 300px;
+   
+}
+
+.caja1 {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p1{
+
+    padding-left: 10px;
+    text-align: left;
+    font-size: x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: grey;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo1{
+    padding-top: 100px;
+    font-size: 38px;
+    padding-left: 10px;
+}
+.titulo2{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    line-height: 1.6;
+   
+}
+.letraGrande{
+
+    font-size: 38px;
+
+
+margin: 0;
+}
+.p2{
+    padding-left: 10px;
+    text-align: left;
+    font-size: x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex-Container2 {
+    display: flex;
+    align-items: center; /* Para alinear verticalmente */
+  }
+  
+  .flex-Container2  .contenido{
+    display: flex;
+    align-items: center; /* Para alinear verticalmente */
+    margin-left: 10px; /* Espacio entre los elementos */
+    position: absolute;
+    top: 80px;
+    
+  }
+  .flex-Container2 .titulo2{
+    position: absolute;
+    top: 30px;
+    width: 280px;
+  }
+
+.fondo1{
+    background-image: url('../recursos/imagenes/hogar.jpg');
+    width: 298px;
+    height: 298px;
+}
+
+.elemento .tamañoCaja4 {
+font-size: 76px;
+margin-top: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja5{
+
+background-image: url(../recursos/imagenes/hogar2.jpg);
+width: 300px;
+height: 300px;
+margin: 10px;
+
+}
+
+.texto{
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 85%;
+}
+.caja6{
+
+background-image: url(../recursos/imagenes/ejecutivo.jpg);
+width: 300px;
+height: 300px;
+justify-content: center;
+margin: 10px;
+}
+.caja7{
+
+
+    grid-column: 1/3;
+}
+.textoCaja7{
+
+font-size: 176px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 10px;
+margin-top: 90px;
+margin-left: 0;
+
+}

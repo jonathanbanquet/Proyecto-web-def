@@ -1,0 +1,47 @@
+body{
+
+    background-color: black;
+    color: white;
+}
+
+
+
+.flex-Container{
+display: flex; /*Ordena los elementos de forma columnar*/
+border: 1px;
+background-color: grey;
+padding: 20px;
+justify-content: center; /*Mueve los elementos al centro*/
+gap: 20px; /*espacio entre elemento de 20 pixeles*/
+
+
+}
+
+.caja {
+
+    border: 1px solid;     /*Da un borde de un pixel*/
+    background-color: white; /*Fondo de la caja*/
+    color: black; /*Color de la caja*/
+    font-family: 'Courier New', Courier, monospace; /**/
+    font-weight: bold; /**/
+    width: 200px;   /*ancho*/       
+    height: 200px; /*alto*/
+    line-height: 200px;     /*Centrar Elementos a 120 pixeles*/
+    text-align: center; /*alineacion del texto al centro*/
+    margin: 5px;
+
+}
+.c1{
+    background-color: aqua;
+    order: 2; /*<- Ordena elementos por enumeracion*/
+    flex-grow: 5; /* Aumenta el tamaño de la caja*/
+}  
+.c2{
+background-color: beige;
+order: 3;
+}
+.c3{
+
+background-color: tomato;
+order: 1;
+}
